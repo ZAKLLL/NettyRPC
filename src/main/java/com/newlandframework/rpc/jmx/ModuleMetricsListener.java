@@ -15,7 +15,7 @@
  */
 package com.newlandframework.rpc.jmx;
 
-import com.newlandframework.rpc.event.AbstractInvokeEventBus;
+import com.newlandframework.rpc.server.event.AbstractInvokeEventBus;
 
 import javax.management.AttributeChangeNotification;
 import javax.management.JMException;

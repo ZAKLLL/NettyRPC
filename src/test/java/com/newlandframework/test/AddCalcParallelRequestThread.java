@@ -17,6 +17,7 @@ package com.newlandframework.test;
 
 import com.newlandframework.rpc.exception.InvokeTimeoutException;
 import com.newlandframework.rpc.services.AddCalculate;
+import com.newlandframework.rpc.services.impl.AddCalculateImpl;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.logging.Level;
@@ -33,7 +34,7 @@ public class AddCalcParallelRequestThread implements Runnable {
 
     private CountDownLatch signal;
     private CountDownLatch finish;
-    private int taskNumber = 0;
+    private int taskNumber;
     private AddCalculate calc;
 
     public AddCalcParallelRequestThread(AddCalculate calc, CountDownLatch signal, CountDownLatch finish, int taskNumber) {

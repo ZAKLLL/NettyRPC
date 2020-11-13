@@ -24,7 +24,7 @@ import org.apache.commons.lang3.time.StopWatch;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author tangjie<https://github.com/tang-jie>
+ * @author tangjie<https: / / github.com / tang-jie>
  * @filename:RpcParallelTest.java
  * @description:RpcParallelTest功能模块
  * @blogs http://www.cnblogs.com/jietang/
@@ -86,12 +86,19 @@ public class RpcParallelTest {
 
     public static void main(String[] args) throws Exception {
         //并行度1000
-        int parallel = 1000;
+        int parallel = 100;
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("classpath:rpc-invoke-config-client.xml");
+
+
+        String[] beanDefinitionNames = context.getBeanDefinitionNames();
+
+        AddCalculate addCalc = (AddCalculate) context.getBean("addCalc");
+        int add = addCalc.add(1, 2);
+        System.out.println(add);
 
         for (int i = 0; i < 1; i++) {
             addTask((AddCalculate) context.getBean("addCalc"), parallel);
-            multiTask((MultiCalculate) context.getBean("multiCalc"), parallel);
+//            multiTask((MultiCalculate) context.getBean("multiCalc"), parallel);
             System.out.printf("[author tangjie] Netty RPC Server 消息协议序列化第[%d]轮并发验证结束!\n\n", i);
         }
 

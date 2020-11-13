@@ -17,7 +17,7 @@ package com.newlandframework.rpc.jmx;
 
 import com.newlandframework.rpc.core.ReflectionUtils;
 import com.newlandframework.rpc.core.RpcSystemConfig;
-import com.newlandframework.rpc.netty.MessageRecvExecutor;
+import com.newlandframework.rpc.server.netty.MessageRecvExecutor;
 
 import java.util.ArrayList;
 import java.util.List;

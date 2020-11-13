@@ -15,7 +15,7 @@
  */
 package com.newlandframework.rpc.jmx;
 
-import com.newlandframework.rpc.netty.MessageRecvExecutor;
+import com.newlandframework.rpc.server.netty.MessageRecvExecutor;
 import com.newlandframework.rpc.parallel.AbstractDaemonThread;
 import com.newlandframework.rpc.parallel.SemaphoreWrapper;
 import org.apache.commons.collections.Predicate;

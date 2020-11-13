@@ -20,7 +20,7 @@ import com.newlandframework.rpc.jmx.HashModuleMetricsVisitor;
 import com.newlandframework.rpc.jmx.ModuleMetricsHandler;
 import com.newlandframework.rpc.jmx.ThreadPoolMonitorProvider;
 import com.newlandframework.rpc.serialize.RpcSerializeProtocol;
-import com.newlandframework.rpc.netty.MessageRecvExecutor;
+import com.newlandframework.rpc.server.netty.MessageRecvExecutor;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

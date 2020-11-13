@@ -24,7 +24,7 @@ import org.springframework.jmx.support.ConnectorServerFactoryBean;
 import org.springframework.jmx.support.MBeanServerConnectionFactoryBean;
 import org.springframework.jmx.support.MBeanServerFactoryBean;
 import org.springframework.remoting.rmi.RmiRegistryFactoryBean;
-import com.newlandframework.rpc.netty.MessageRecvExecutor;
+import com.newlandframework.rpc.server.netty.MessageRecvExecutor;
 import org.apache.commons.lang3.StringUtils;
 
 import javax.management.MBeanServerConnection;

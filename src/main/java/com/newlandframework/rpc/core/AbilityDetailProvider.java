@@ -15,7 +15,7 @@
  */
 package com.newlandframework.rpc.core;
 
-import com.newlandframework.rpc.netty.MessageRecvExecutor;
+import com.newlandframework.rpc.server.netty.MessageRecvExecutor;
 
 import java.util.Iterator;
 import java.util.Map;

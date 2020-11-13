@@ -42,7 +42,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.RejectedExecutionHandler;
 
 /**
- * @author tangjie<https://github.com/tang-jie>
+ * @author tangjie<https: / / github.com / tang-jie>
  * @filename:RpcThreadPool.java
  * @description:RpcThreadPool功能模块
  * @blogs http://www.cnblogs.com/jietang/
@@ -119,15 +119,7 @@ public class RpcThreadPool {
 
                 try {
                     ThreadPoolMonitorProvider.monitor(status);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (MalformedObjectNameException e) {
-                    e.printStackTrace();
-                } catch (ReflectionException e) {
-                    e.printStackTrace();
-                } catch (MBeanException e) {
-                    e.printStackTrace();
-                } catch (InstanceNotFoundException e) {
+                } catch (IOException | MalformedObjectNameException | ReflectionException | MBeanException | InstanceNotFoundException e) {
                     e.printStackTrace();
                 }
             }
