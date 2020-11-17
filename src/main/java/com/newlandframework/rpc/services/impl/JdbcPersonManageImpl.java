@@ -16,7 +16,7 @@
 package com.newlandframework.rpc.services.impl;
 
 import com.newlandframework.rpc.services.JdbcPersonManage;
-import com.newlandframework.rpc.services.pojo.Person;
+import com.newlandframework.rpc.pojo.Person;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

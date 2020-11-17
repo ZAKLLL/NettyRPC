@@ -16,7 +16,7 @@
 package com.newlandframework.test;
 
 import com.newlandframework.rpc.services.PersonManage;
-import com.newlandframework.rpc.services.pojo.Person;
+import com.newlandframework.rpc.pojo.Person;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

@@ -16,7 +16,7 @@
 package com.newlandframework.rpc.services.impl;
 
 import com.newlandframework.rpc.services.CostTimeCalculate;
-import com.newlandframework.rpc.services.pojo.CostTime;
+import com.newlandframework.rpc.pojo.CostTime;
 
 /**
  * @author tangjie<https://github.com/tang-jie>

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.newlandframework.rpc.server.netty;
+package com.newlandframework.rpc.client;
 
 import com.newlandframework.rpc.client.handler.MessageSendHandler;
 import com.newlandframework.rpc.core.RpcSystemConfig;
@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 import com.newlandframework.rpc.serialize.RpcSerializeProtocol;
 
 /**
- * @author tangjie<https://github.com/tang-jie>
+ * @author tangjie<https: / / github.com / tang-jie>
  * @filename:MessageSendInitializeTask.java
  * @description:MessageSendInitializeTask功能模块
  * @blogs http://www.cnblogs.com/jietang/
@@ -40,7 +40,7 @@ public class MessageSendInitializeTask implements Callable<Boolean> {
     private InetSocketAddress serverAddress;
     private RpcSerializeProtocol protocol;
 
-    MessageSendInitializeTask(EventLoopGroup eventLoopGroup, InetSocketAddress serverAddress, RpcSerializeProtocol protocol) {
+    public MessageSendInitializeTask(EventLoopGroup eventLoopGroup, InetSocketAddress serverAddress, RpcSerializeProtocol protocol) {
         this.eventLoopGroup = eventLoopGroup;
         this.serverAddress = serverAddress;
         this.protocol = protocol;

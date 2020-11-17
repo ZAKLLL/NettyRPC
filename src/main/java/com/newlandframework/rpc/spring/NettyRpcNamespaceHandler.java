@@ -44,14 +44,14 @@ public class NettyRpcNamespaceHandler extends NamespaceHandlerSupport {
                 e.printStackTrace();
             }
         } else {
-            System.out.println("");
+            System.out.println();
             System.out.println(" _      _____ _____ _____ ___  _ ____  ____  ____ ");
             System.out.println("/ \\  /|/  __//__ __Y__ __\\\\  \\///  __\\/  __\\/   _\\");
             System.out.println("| |\\ |||  \\    / \\   / \\   \\  / |  \\/||  \\/||  /  ");
             System.out.println("| | \\|||  /_   | |   | |   / /  |    /|  __/|  \\_ ");
             System.out.println("\\_/  \\|\\____\\  \\_/   \\_/  /_/   \\_/\\_\\\\_/   \\____/");
             System.out.println("[NettyRPC 2.0,Build 2016/10/7,Author:tangjie http://www.cnblogs.com/jietang/]");
-            System.out.println("");
+            System.out.println();
         }
     }
 

@@ -15,7 +15,7 @@
  */
 package com.newlandframework.rpc.services;
 
-import com.newlandframework.rpc.services.pojo.Person;
+import com.newlandframework.rpc.pojo.Person;
 
 /**
  * @author tangjie<https://github.com/tang-jie>

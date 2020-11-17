@@ -20,7 +20,7 @@ import com.newlandframework.rpc.async.AsyncCallback;
 import com.newlandframework.rpc.async.AsyncInvoker;
 import com.newlandframework.rpc.exception.AsyncCallException;
 import com.newlandframework.rpc.services.CostTimeCalculate;
-import com.newlandframework.rpc.services.pojo.CostTime;
+import com.newlandframework.rpc.pojo.CostTime;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

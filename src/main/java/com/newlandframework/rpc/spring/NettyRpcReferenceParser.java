@@ -22,7 +22,7 @@ import org.springframework.beans.factory.xml.ParserContext;
 import org.w3c.dom.Element;
 
 /**
- * @author tangjie<https://github.com/tang-jie>
+ * @author tangjie<https: / / github.com / tang-jie>
  * @filename:NettyRpcReferenceParser.java
  * @description:NettyRpcReferenceParser功能模块
  * @blogs http://www.cnblogs.com/jietang/

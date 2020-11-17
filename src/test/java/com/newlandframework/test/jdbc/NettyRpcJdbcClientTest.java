@@ -16,7 +16,7 @@
 package com.newlandframework.test.jdbc;
 
 import com.newlandframework.rpc.services.JdbcPersonManage;
-import com.newlandframework.rpc.services.pojo.Person;
+import com.newlandframework.rpc.pojo.Person;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.text.ParseException;
